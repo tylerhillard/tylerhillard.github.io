@@ -1,0 +1,61 @@
+html {
+	scroll-behavior: smooth;
+}
+
+
+.navbar-brand {
+	color: black;
+	font-weight: bold;
+	transition: color 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+	color: red;
+}
+
+.navbar-nav .nav-link{
+	color: rgb(83, 83, 83);
+	transition: color 0.3s ease-in-out;
+
+}
+
+.navbar-nav .nav-link:hover {
+	color: red;
+  }
+
+
+.profile-pic-container {
+	display: flex;
+	justify-content: center;
+}
+
+.profile-pic {
+	border-radius: 50%;
+	object-fit: cover;
+	width: 200px;
+	height: 200px;
+}
+
+
+
+.contact-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+  
+.contact-icons a {
+	margin: 0 10px;
+	font-size: 32px;
+	color: #0099ec;
+	transition: all 0.2s ease-in-out;
+}
+  
+.contact-icons a:hover {
+	color: #0076b5;
+}
+  
+
+#intro {
+	margin:5%;
+}
