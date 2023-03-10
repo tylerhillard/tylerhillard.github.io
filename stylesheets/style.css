@@ -57,5 +57,18 @@ html {
   
 
 #intro {
-	margin:5%;
+	margin: 15%;
+
 }
+
+
+
+
+.section-box {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-left: 3%;
+	margin-right: 3%;
+  }
+  
+
