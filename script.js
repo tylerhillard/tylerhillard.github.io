@@ -12,8 +12,3 @@ function showPageSource() {
 	};
 	xhr.send();
   }
-
-  
-function openMarketing() {
-	window.open("projects/Final.pptx", "_blank");
-}
