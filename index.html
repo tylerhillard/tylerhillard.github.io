@@ -18,23 +18,8 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
+	<script src="script.js"></script>
 
-	
-	<script>
-		function showPageSource() {
-		  var xhr = new XMLHttpRequest();
-		  xhr.open("GET", document.location, true);
-		  xhr.onreadystatechange = function() {
-			if (xhr.readyState == 4 && xhr.status == 200) {
-			  var sourceWindow = window.open("", "", "width=800,height=600");
-			  sourceWindow.document.write("<pre>" + xhr.responseText.replace(/[<>&]/g, function(c) {
-				return {'<':'&lt;','>':'&gt;','&':'&amp;'}[c];
-			  }) + "</pre>");
-			}
-		  };
-		  xhr.send();
-		}
-		</script>
 		
   
   
@@ -259,29 +244,34 @@
 		
 		<div class="project">
 		  <h3>ePortfolio Website</h3>
-		  <p>This ePortfolio website has been exclusively designed by me from the ground up, utilizing raw coding skills, hosting services, and security measures. Building such a website is far from simple, requiring hours of dedication and expertise. However, the result is a showcase of my technical abilities and a testament to the high standards I hold myself to. Click below to view the source code of the website!</p>
+		  <p>This ePortfolio website has been exclusively designed by me from the ground up, utilizing raw coding skills, hosting services, and security measures. Building such a website is far from simple, requiring hours of dedication and expertise. The website source code includes links to external CSS and JavaScript files, as well as external libraries such as Bootstrap and jQuery. The website includes a navigation bar, a jumbotron section with a profile picture and contact information, sections for education, experience, skills, honors and awards, organizations, and featured work. The education and experience sections contain lists of relevant coursework, organizations, and work experience. Click below to view the source code of the website!</p>
 		  <button class="btn btn-dark" onclick="showPageSource()">View Project</button>
 		</div>
 
 
 		<div class="project">
 			<h3>Uptown Marketing Plan</h3>
-			<p>This is a comprehensive marketing plan designed for the Uptown Partners of Pittsburgh, which outlines strategies to revitalize the neighborhood. The goal is to present a well-thought-out proposal that showcases innovative ideas and highlights the potential of this thriving community.</p>
-			<button class="btn btn-dark" onclick="">View Project</button>
+			<p>This is a marketing plan for Uptown Partners of Pittsburgh, a non-profit organization with a mission to revitalize the Uptown neighborhood of Pittsburgh. The organization's goal is to develop a clean, safe, green, and equitable neighborhood. The marketing objectives include revitalizing Uptown, communicating each step of revitalization with residents, and connecting with all potential sponsors and investors. The target audience is residents of Uptown and nearby Pittsburgh neighborhoods, particularly college students with a liberal bias and a concern for social and environmental issues. The plan proposes a film festival as a big idea to engage the community.</p>
+			<button class="btn btn-dark" onclick="window.open('projects/marketing.pdf', '_blank')">View Project</button>
 		</div>
 
 		<div class="project">
-			<h3>3</h3>
-			<p></p>
-			<button class="btn btn-dark" onclick="">View Project</button>
+			<h3>Company Overview</h3>
+			<p>The 7-page research paper provides a comprehensive overview of Tesla Inc., covering various aspects of the company such as its locations, number of employees, products and services, stock information, leadership, social media presence, company code of ethics, ethical examples, safety policies, and competition. The paper provides both quantitative and qualitative data, such as the number of stores and service centers, the number of employees, revenue and profit growth, and safety policies, as well as information about the company's mission statement, ethical behavior, and leadership. The paper is well-organized and presents the information in a clear and concise manner, making it easy to understand and follow. Additionally, the paper provides a thorough analysis of the company's strengths, weaknesses, opportunities, and threats, which is useful for understanding the company's position in the market and potential for growth.</p>
+			<button class="btn btn-dark" onclick="window.open('projects/companyOverview.pdf', '_blank')">View Project</button>
 		</div>
 
 		  <div class="project">
-			<h3>4</h3>
-			<p></p>
-			<button class="btn btn-dark" onclick="">View Project</button>
+			<h3>Economic Research Paper - National Debt</h3>
+			<p>This twelve-page research paper analyzes the national debt of the United States by using the film documentary "Ten Trillion and Counting" presented by Frontline. The paper is divided into three parts. The first part of the paper is the executive summary, which gives an overview of the film. The second part is based on follow-up questions of the film, such as important ideas, recommendations to the government, etc. The third part is the research paper questions and graphs. The research questions will use two graphs to give answers analyzing how each administration handled those issues. The paper discusses the reasons, probable outcomes, and possible solutions to America's $10 trillion debt through interviews with renowned experts and insiders in government finance.</p>
+			<button class="btn btn-dark" onclick="window.open('projects/econ1.pdf', '_blank')">View Project</button>
 		</div>
 
+		<div class="project">
+			<h3>Economic Research Paper - Financial Crisis</h3>
+			<p>This twelve-page research paper analyzes the 2009 financial crisis in the United States using the film documentary "Inside The Meltdown" by Frontline. The paper consists of four parts, including an executive summary, follow-up questions, a graph section showing the number of bank failures from 2006 to 2020, and an analysis of a recent news article about the US banking system. The film explains the events leading to the fall of major corporations such as Lehmann Brothers, Bear Stearns, and AIG, and highlights the consequences of unethical business practices in the corporate world.</p>
+			<button class="btn btn-dark" onclick="window.open('projects/econ2.pdf', '_blank')">View Project</button>
+		</div>
 	  </div>
 	</div>
   </div>
